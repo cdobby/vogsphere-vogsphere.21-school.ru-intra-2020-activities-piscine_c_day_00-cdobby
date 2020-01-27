@@ -1,1 +1,1 @@
-git log rev-parse -n 5 HEAD --pretty=oneline
+$ git log --pretty=format: "%h" -5
